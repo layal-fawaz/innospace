@@ -1,0 +1,119 @@
+@media (max-width:768px) {
+
+
+    #hero .div {
+        width: 100%;
+        padding: 4rem;
+    }
+
+    #hero .myButton {
+        padding: 1rem;
+        font-size: 13px;
+    }
+
+    /*------------------------------------------------------*/
+    #discover {
+        display: block;
+    }
+
+    #discover img {
+        display: none;
+    }
+
+    #discover .border div {
+        background-color: rgb(173, 176, 146);
+    }
+
+    /*------------------------------------------------------*/
+
+    #appointment {
+        flex-wrap: wrap;
+
+    }
+
+
+    /*------------------------------------------------------*/
+    #about_us {
+        display: block;
+        background-color: rgb(214, 222, 197);
+    }
+
+
+    #about_us img {
+        width: 100%;
+        margin: 1rem;
+
+    }
+    #filter .border {
+        width: 180%;
+    }
+    
+    /*------------------------------------------------------*/
+
+    footer div:first-child,
+    .contact {
+        flex-wrap: wrap;
+        gap: 2rem;
+        align-items: center;
+        justify-content: center;
+
+        i,
+        h6 {
+            color: #ffffff;
+        }
+
+    }
+
+    footer .links {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
+
+/*---------------------------------------*************************--------------------------------*/
+
+@media (min-width:768px) and (max-width:1023px) {
+
+    #hero .div {
+        width: 65%;
+        padding: 4rem;
+    }
+
+    #hero .myButton {
+        font-size: 13px;
+    }
+
+    /*------------------------------------------------------*/
+
+    #discover {
+        gap: 3rem;
+    }
+
+    #discover .img {
+        width: 270px;
+        height: 270px;
+
+    }
+
+    #discover .border div {
+        background-color: rgb(173, 176, 146);
+    }
+
+    /*------------------------------------------------------*/
+    #appointment {
+        flex-wrap: wrap;
+    }
+
+
+    /*------------------------------------------------------*/
+    footer .links {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        text-align: left;
+    }
+
+}
