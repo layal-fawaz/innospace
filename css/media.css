@@ -1,0 +1,178 @@
+@media (max-width:768px) {
+    header nav .logo {
+        width: 140px;
+    }
+
+    #hero .div {
+        width: 100%;
+        padding: 5rem 2rem;
+    }
+
+    #hero .myButton {
+        padding: 1rem;
+        font-size: 13px;
+    }
+
+    /*------------------------------------------------------*/
+    #discover {
+        display: block;
+        padding: 3rem 1.5rem !important;
+    }
+
+    #discover img {
+        display: none;
+    }
+
+    #discover .border1 div {
+        width: 100%;
+
+    }
+
+    #discover .border div {
+        background-color: rgb(173, 176, 146);
+    }
+
+    /*------------------------------------------------------*/
+
+    #explore {
+        margin: 0 !important;
+    }
+
+    #explore .explore div {
+        width: 100%;
+    }
+
+    /*------------------------------------------------------*/
+
+    #services .carousel-item img {
+        height: 70vh !important;
+    }
+
+    /*------------------------------------------------------*/
+
+    #ideas {
+        margin: 1rem !important;
+    }
+
+    #ideas .services {
+        grid-template-columns: repeat(1, 1fr) !important;
+        padding: 3rem 0 !important;
+    }
+
+    /*------------------------------------------------------*/
+    #filter {
+        padding: 4rem 0 !important;
+    }
+
+    #filter div:first-child {
+        width: 100% !important;
+    }
+
+    /*------------------------------------------------------*/
+
+    #appointment {
+        flex-wrap: wrap;
+    }
+
+    /*------------------------------------------------------*/
+    #about_us {
+        display: block;
+        background-color: rgb(214, 222, 197);
+        padding: 3rem 1rem !important;
+    }
+
+    #about_us div {
+        width: 99% !important;
+    }
+
+    #about_us img {
+        max-width: 100%;
+        margin: 3rem 0;
+    }
+
+    #search div {
+        width: 100%;
+    }
+
+    #team {
+        margin: 4rem 1.5rem !important;
+    }
+
+    #filter .border {
+        width: 180%;
+    }
+
+    /*------------------------------------------------------*/
+
+    footer div:first-child,
+    .contact {
+        flex-wrap: wrap;
+        gap: 2rem;
+        align-items: center;
+        justify-content: center;
+
+        i,
+        h6 {
+            color: #ffffff;
+        }
+
+    }
+
+    footer .links {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
+
+/*---------------------------------------*************************--------------------------------*/
+
+@media (min-width:768px) and (max-width:1023px) {
+
+    #hero .div {
+        width: 65%;
+        padding: 4rem;
+    }
+
+    #hero .myButton {
+        font-size: 13px;
+    }
+
+    /*------------------------------------------------------*/
+
+    #discover {
+        gap: 3rem;
+    }
+
+    #discover .img {
+        width: 270px;
+        height: 270px;
+
+    }
+
+    #discover .border div {
+        background-color: rgb(173, 176, 146);
+    }
+
+    #ideas .services {
+        grid-template-columns: repeat(2, 1fr) !important;
+        padding: 3rem 0 !important;
+    }
+
+    /*------------------------------------------------------*/
+    #appointment {
+        flex-wrap: wrap;
+    }
+
+
+    /*------------------------------------------------------*/
+    footer .links {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        text-align: left;
+    }
+
+}
